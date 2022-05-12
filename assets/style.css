@@ -35,6 +35,10 @@ header {
     margin-bottom: 100px;
 }
 
+.header-left p{
+    font-size: 14px;
+}
+
 .background-img {
     background-image: url(/img/mainpicture.jpg);
     background-repeat: no-repeat;
@@ -77,11 +81,11 @@ h1 {
 
 .btn {
     background-color: #fff;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
     letter-spacing: 2px;
-    width: 200px;
+    width: 260px;
     padding: 12px 50px;
     text-decoration: none;
     border: 0.5px solid;
@@ -161,15 +165,16 @@ h1 {
 /* メイン */
 
 h2 {
+    font-size: 28px;
     text-align: center;
     letter-spacing: 3px;
     font-weight: normal;
 }
 
 p {
-    font-size: 13px;
-    line-height: 25px;
-    letter-spacing: 3px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1.875px;
 }
 
 /* 1 */
@@ -212,7 +217,7 @@ p {
 
     p {
         font-size: 14px;
-        line-height: 30px;
+        line-height: 23px;
     }
 
 
@@ -261,6 +266,13 @@ p {
 .main-second-left-box {
     padding-left: 25%;
     text-align: center;
+}
+
+.main-second-left-box p,
+.main-third-right-box p,
+.main-fourth-left-box p{
+    font-size: 14px;
+    line-height: 26px;
 }
 
 #second-object {
@@ -515,8 +527,13 @@ h3 {
     top: 75px;
 }
 
+h4{
+    font-size: 20px;
+    line-height: 28px;
+}
+
 .merit-text h5 {
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     padding-left: 0;
     padding-right: 0;
@@ -557,15 +574,19 @@ h3 {
 
     .merit-list {
         flex-direction: column;
-        padding: 250px 10px 0 10px;
+        padding: 200px 10px 0 10px;
     }
 
     .merit-list-box{
         width: 95%;
     }
 
+    h4{
+        font-size: 16px;
+    }
+
     .merit-text h5{
-        font-size: 14px;
+        font-size: 12px;
         letter-spacing: 3px;
     }
 
@@ -620,6 +641,7 @@ h3 {
 }
 
 .box h5 {
+    font-size: 14px;
     color: black;
     font-weight: 100;
     padding-left: 20px;
@@ -630,7 +652,7 @@ h3 {
     position: absolute;
     top: 90%;
     right: 5%;
-    font-size: 13px;
+    font-size: 14px;
     color: black;
 }
 
@@ -667,6 +689,11 @@ h3 {
 
     .box h5{
         padding-right: 20px;
+        font-size: 12px;
+    }
+
+    .box-detail{
+        font-size: 11.94;
     }
 
 
@@ -763,6 +790,7 @@ h3 {
 }
 
 .title {
+    font-size: 20px;
     padding: 1em;
     display: block;
 }
@@ -789,12 +817,12 @@ h3 {
 }
 
 .content p {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.5;
     margin: 0;
     padding-bottom: 10px;
     padding-left: 45px;
-    text-indent: -1.9rem;
+    text-indent: -1.4rem;
 }
 
 .toggle:checked+.title+.content {
@@ -826,9 +854,9 @@ h3 {
 
 .q-detail-btn {
     background-color: #fff;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
-    width: 200px;
+    width: 260px;
     letter-spacing: 2px;
     padding: 12px 10px;
     text-align: center;
@@ -868,6 +896,15 @@ h3 {
         width: 300px;
         height: 50px;
     }
+
+    .title{
+        font-size: 14px;
+    }
+
+    .content p{
+        font-size: 12px;
+        text-indent: -2rem;
+    }
 }
 
 
@@ -903,16 +940,16 @@ footer {
 
 .footer-info li {
     list-style: none;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 25px;
     letter-spacing: 3px;
 }
 
 
 .footer-btn {
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
-    width: 200px;
+    width: 260px;
     letter-spacing: 2px;
     padding: 12px 50px;
     text-align: center;
@@ -956,6 +993,10 @@ footer {
         padding: 30px 0;
     }
 
+    .footer-box p,.footer-box li{
+        font-size: 14px;
+    }
+
     .footer-info {
         flex-direction: column;
     }
@@ -963,6 +1004,7 @@ footer {
     .footer-info ul{
         padding-left: 0;
     }
+
 
     .footer-btn{
         width: 300px;
